@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node script.js development local",
+    "dev": "node script.js",
     "dev:test": "node script.js testing local",
     "dev:stage": "node script.js staging local",
     "dev:prod": "node script.js production local",
