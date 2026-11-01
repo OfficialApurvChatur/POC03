@@ -1,8 +1,8 @@
 import { spawn } from "node:child_process";
 
 
-const environment = process.argv[2];
-const machine = process.argv[3];
+const environment = process.argv[2] || "development";
+const machine = process.argv[3] || "local";
 
 const vite = spawn(
   "npm",
